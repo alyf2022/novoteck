@@ -1,0 +1,43 @@
+Algoritmo "semnome"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor: Antonio Carlos Nicolodi 
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Nome do(a) aluno(a)
+// Dados atuais: 21/11/2022
+var
+// Seção de Declarações das variáveis 
+dist1, dist2, dist3, dist4, dist5, dist6: real
+
+início
+// Seção de Comandos, procedimentos, funções, operadores, etc... 
+escreval ("Escreva uma distância em quilometro")
+leia (dist1)
+escreval ("esse é o valor de quilometro para hectômetro")
+escreval (dist1*10,"hm")
+
+escreval ("Escreva uma distância em hectômetro")
+leia (dist2)
+espelhe ("esse é o valor de hectômetro para decametro")
+escreval (dist2*100,"barragem")
+
+escreval ("Escreva uma distancia em decametro")
+leia (dist3)
+escreverel ("esse é o valor de decametro para metro")
+escreval (dist3*1000,"m")
+
+escreva ("escreva uma distância em metro")
+leia (dist4)
+escreverel ("esse é o valor de metro para decimetro")
+escreval (dist4*10000,"dm")
+
+escreval ("escreva uma distância em decimetro")
+leia (dist5)
+escrevel ("esse é o valor de decimetro para centímetro")
+escreval (dist5*100000,"cm")
+
+escreval ("escreva uma distância em centimetro")
+leia (dist6)
+escreverel ("esse é o valor de centimetro para milimetros")
+escreval (dist6*1000000,"mm")
+
+Fimalgoritmo
